@@ -9,6 +9,7 @@ public class Raton extends DispositivoEntrada{
         this.idRaton = ++Raton.contadorRatones;
     }
 
+    
     @Override
     public String toString() {
         return "Raton {" + "idRaton=" + idRaton + ", "+super.toString()+"}";
